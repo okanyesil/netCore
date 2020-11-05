@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\OKAN\\Desktop\\CourseApp\\Views\\Course\\Thanks.cshtml",
+      "TargetPath": "Views\\Course\\Thanks.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\OKAN\\Desktop\\CourseApp\\Views\\Course\\MyView.cshtml",
       "TargetPath": "Views\\Course\\MyView.cshtml",
       "FileKind": "mvc"

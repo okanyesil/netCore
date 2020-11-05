@@ -36,3 +36,6 @@ C:\Users\OKAN\Desktop\CourseApp\obj\Debug\netcoreapp3.1\Razor\Views\Course\MyVie
 C:\Users\OKAN\Desktop\CourseApp\obj\Debug\netcoreapp3.1\Razor\Views\Course\Details.cshtml.g.cs
 C:\Users\OKAN\Desktop\CourseApp\obj\Debug\netcoreapp3.1\Razor\Views\Course\Apply.cshtml.g.cs
 C:\Users\OKAN\Desktop\CourseApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\OKAN\Desktop\CourseApp\obj\Debug\netcoreapp3.1\Razor\Views\Course\Thanks.cshtml.g.cs
+C:\Users\OKAN\Desktop\CourseApp\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\OKAN\Desktop\CourseApp\bin\Debug\netcoreapp3.1\package.json

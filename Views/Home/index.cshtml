@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="/modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-   </p>@ViewBag.Greeting @ViewBag.UserName, Nasılsın?</p>
-   <p>Umarım kurslarımızdan memnunsunuzdur...</p>
-   <a asp-action="apply" asp-controller="course">Başvuru Yap</a>
+    <div class="container m-4">
+        <div class="card mx-auto" style="width: 500px;">
+            <div class="card-header">
+                </p>@ViewBag.Greeting @ViewBag.UserName, Nasılsın?</p>
+                <div class="card-body">
+                    <p class="card-text">
+                        Umarım kurslarımızdan memnunsunuzdur...
+                    </p>
+                    <a asp-action="apply" asp-controller="course" class="btn btn-primary ">Başvuru Yap</a>
+                </div>
+            </div>
+        </div>    
+    </div>
+   
 </body>
 </html>

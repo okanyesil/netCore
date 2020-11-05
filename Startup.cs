@@ -8,6 +8,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace CourseApp
 {
@@ -25,6 +27,11 @@ namespace CourseApp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions{
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "node_modules")),
+                RequestPath = "/modules"
+            });
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
